@@ -41,7 +41,7 @@ final class lib_test extends \advanced_testcase {
      * It should return false if the instance cannot be added.
      */
     public function test_livequiz_add_instance(): void {
-        require_once(__DIR__ . '/../lib.php');
+        require_once('/../lib.php');
         global $DB;
 
         $quizdata = new \stdClass(); // Create a new stdClass object (empty object).
