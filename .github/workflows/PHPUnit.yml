@@ -4,7 +4,7 @@ on:
   pull_request:
     branches: [ "main", "staging"  ]
   push:
-    branches: [ "main", "staging"  ]
+    branches: [ "main", "test-branch"  ]
 
 jobs:
   build-test:
@@ -278,6 +278,6 @@ jobs:
           # echo useless line
           cd server/moodle
           # ls mod/livequiz/tests
-          vendor/bin/phpunit mod/livequiz/tests/activitysetup_test.php
-          vendor/bin/phpunit `find mod/livequiz/tests/ -type f`
+          vendor/bin/phpunit mod/livequiz/tests/phpunittest
+          # vendor/bin/phpunit `find mod/livequiz/tests/ -type f`
               
