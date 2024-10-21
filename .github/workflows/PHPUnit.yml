@@ -276,7 +276,7 @@ jobs:
         run: |
           pwd
           # echo useless line
-          # cd server/moodle
+          cd server/moodle
           # ls mod/livequiz/tests
           # vendor/bin/phpunit mod/livequiz/tests/lib_test.php
           vendor/bin/phpunit `find mod/livequiz/tests/ -maxdepth 1 -type f`
