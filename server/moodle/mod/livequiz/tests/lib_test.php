@@ -28,7 +28,7 @@ final class lib_test extends \advanced_testcase {
     protected function setUp(): void {
         parent::setUp();
         $this->resetAfterTest(true);
-        require_once($CFG->dirroot . '/../lib.php');
+        require_once(_DIR_ . '/../lib.php');
     }
 
     /**
