@@ -277,9 +277,9 @@ jobs:
           pwd
           # echo useless line
           cd server/moodle
-          ls mod/livequiz/tests/phpunit
           for file in `find mod/livequiz/tests/phpunit -type f`
           do
+            echo Running tests in $file
             vendor/bin/phpunit $file
           done
           # vendor/bin/phpunit --verbose mod/livequiz/tests/phpunit/zzz_test.php
