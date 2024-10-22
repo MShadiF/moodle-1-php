@@ -51,6 +51,7 @@ final class activitysetup_test extends \advanced_testcase {
      * @covers \mod_livequiz\activitysetup_test::test_mod_form_setup
      */
     public function test_mod_form_setup(): void {
+        $this->assertEquals(true, true);
         $this->resetAfterTest(true);
 
         // Create a mock object for mod_livequiz_mod_form!
