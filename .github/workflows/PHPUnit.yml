@@ -278,6 +278,6 @@ jobs:
           # echo useless line
           cd server/moodle
           ls mod/livequiz/tests/phpunittest
-          vendor/bin/phpunit mod/livequiz/tests/
-          # vendor/bin/phpunit `find mod/livequiz/tests/ -type f`
+          # vendor/bin/phpunit mod/livequiz/tests/
+          vendor/bin/phpunit `find mod/livequiz/tests/phpunittest -type f`
               
