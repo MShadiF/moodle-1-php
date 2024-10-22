@@ -277,7 +277,7 @@ jobs:
           pwd
           # echo useless line
           cd server/moodle
-          ls mod/livequiz/tests/phpunittest
+          ls mod/livequiz/tests/phpunit
           # vendor/bin/phpunit mod/livequiz/tests/
           vendor/bin/phpunit `find mod/livequiz/tests/phpunit -type f`
               
